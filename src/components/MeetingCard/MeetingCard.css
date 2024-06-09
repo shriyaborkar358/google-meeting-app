@@ -1,0 +1,35 @@
+.meeting-container{
+    height: 220px;
+    width: 330px;
+    background-color: #282727;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px;
+}
+.student-name{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    font-family:cursive
+}
+
+.student-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    margin: 30px auto;
+    left: 90px;
+}
+
+.mic{
+    height: 50px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    box-shadow: 1px 5px 5px solid white;
+
+}
