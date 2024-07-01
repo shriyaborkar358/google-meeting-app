@@ -7,20 +7,25 @@ import Menu from "./menu.png"
 import Mic from "./mic.png"
 import Share from "./share.png"
 import Video from "./video.png"
+import SakshiProfile from "./Sakshi.jpeg"
+import ShriyaProfile from "./Shriya.jpeg"
+import PranayProfile from "./Pranay.jpeg"
+import SauravProfile from "./Saurav.jpeg"
+import LakshmanProfile from "./Lakshman.jpeg"
 
 function Home() {
   return (
     <>
     <div className="meeting-card-container">
-    <MeetingCard StudentName="Shriya Borkar" StudentImg="https://i.pravatar.cc/150?img=28" MuteUnmute={false} />
-    <MeetingCard StudentName="Sakshi Lambe" StudentImg="https://i.pravatar.cc/150?img=30" MuteUnmute={true} />
-    <MeetingCard StudentName="Sakshi Lambe" StudentImg="https://i.pravatar.cc/150?img=30" MuteUnmute={true} />
-    <MeetingCard StudentName="Sakshi Lambe" StudentImg="https://i.pravatar.cc/150?img=30" MuteUnmute={true} />
-    <MeetingCard StudentName="Pranay Dandekar" StudentImg="https://i.pravatar.cc/150?img=57" MuteUnmute={false} />
-    <MeetingCard StudentName="Sakshi Lambe" StudentImg="https://i.pravatar.cc/150?img=30" MuteUnmute={true} />
-    <MeetingCard StudentName="Saurav Shete" StudentImg="https://i.pravatar.cc/150?img=58" MuteUnmute={true} />
-    <MeetingCard StudentName="Sakshi Lambe" StudentImg="https://i.pravatar.cc/150?img=30" MuteUnmute={true} />
-    <MeetingCard StudentName="lakshman kolpe" StudentImg="https://i.pravatar.cc/150?img=56" MuteUnmute={false} />
+    <MeetingCard StudentName="Shriya Borkar" StudentImg= {ShriyaProfile}MuteUnmute={false} />
+    <MeetingCard StudentName="Sakshi Lambe" StudentImg={SakshiProfile} MuteUnmute={true} />
+    <MeetingCard StudentName="Lakshman Kolpe" StudentImg= {SauravProfile} MuteUnmute={true} />
+    <MeetingCard StudentName="Pranay Dandekar" StudentImg= {PranayProfile} MuteUnmute={true} />
+    <MeetingCard StudentName="Saurav Shete" StudentImg={LakshmanProfile} MuteUnmute={false} />
+    <MeetingCard StudentName="Nita Sharma" StudentImg="https://i.pravatar.cc/150?img=30" MuteUnmute={true} />
+    <MeetingCard StudentName="Raghav Raut" StudentImg="https://i.pravatar.cc/150?img=58" MuteUnmute={true} />
+    <MeetingCard StudentName="Mayuri Ramteke" StudentImg="https://i.pravatar.cc/150?img=38" MuteUnmute={true} />
+    <MeetingCard StudentName="Ganesh Meshram" StudentImg="https://i.pravatar.cc/150?img=56" MuteUnmute={false} />
     </div>
     <div className="side-card-container">
       <div className="side-container">
