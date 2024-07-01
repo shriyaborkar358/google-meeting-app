@@ -16,12 +16,12 @@
 }
 
 .student-img{
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: block;
     position: absolute;
-    margin: 30px auto;
+    margin: 40px auto;
     left: 90px;
 }
 
